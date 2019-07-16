@@ -1,8 +1,10 @@
 #include <iostream>
 #include <cstdint>
 #include <cmath>
+#include <algorithm>
 
 using namespace std;
+
 
 template<typename T>
 constexpr T min_(T a, T b)
@@ -28,7 +30,7 @@ int64_t gcd(int64_t a, int64_t b)
 	}
 	else
 	{
-		return gcd(abs(a - b), min_(a, b));
+		return gcd(abs(a - b), min(a, b));
 	}
 }
 
