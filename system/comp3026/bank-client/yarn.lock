@@ -8356,6 +8356,14 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
+serialijse@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.npm.taobao.org/serialijse/download/serialijse-0.1.3.tgz#2293f115f87391f44bad13c44c074e5f9e24cd1f"
+  integrity sha1-IpPxFfhzkfRLrRPETAdOX54kzR8=
+  optionalDependencies:
+    object-assign "^4.1.1"
+    zlib "1.0.5"
+
 serialize-error@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npm.taobao.org/serialize-error/download/serialize-error-5.0.0.tgz#a7ebbcdb03a5d71a6ed8461ffe0fc1a1afed62ac"
@@ -10258,6 +10266,11 @@ zip-stream@^1.2.0:
     compress-commons "^1.2.0"
     lodash "^4.8.0"
     readable-stream "^2.0.0"
+
+zlib@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npm.taobao.org/zlib/download/zlib-1.0.5.tgz#6e7c972fc371c645a6afb03ab14769def114fcc0"
+  integrity sha1-bnyXL8NxxkWmr7A6sUdp3vEU/MA=
 
 zone.js@^0.9.1:
   version "0.9.1"
